@@ -1,0 +1,26 @@
+{
+  "name": "Markus",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Something about bookmarks.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "background"
+  ],
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/chromereload.js",
+      "scripts/background.js",
+      "scripts/markus.js"
+    ]
+  },
+  "omnibox": {
+    "keyword": "markus"
+  }
+}

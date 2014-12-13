@@ -9,8 +9,8 @@
   },
   "permissions": [
     "bookmarks",
-    "storage",
-    "background"
+    "background",
+    "tabs"
   ],
   "default_locale": "en",
   "background": {
@@ -21,6 +21,6 @@
     ]
   },
   "omnibox": {
-    "keyword": "markus"
+    "keyword": "$"
   }
 }
